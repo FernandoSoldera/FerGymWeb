@@ -1,0 +1,90 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/cadastro.css">
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+	<script type="text/javascript" src="JS/cadastro.js"></script>
+	<title>FER GYM</title>
+</head>
+<body>
+	<header>
+		<nav id="menu">
+			<img id="logotipo" src="img/logo.png" alt="Logotipo">
+			<ul>	
+				<li><a href="Main.html">Home</a></li>
+				<li><a href="cadastro.html">Cadastro</a></li>
+				<li><a href="localizacao.html">Localização</a></li>
+				<li><a href="fotos.html">Fotos</a></li>
+				<li><a href="modalidades.html">Modalidades</a></li>
+				<li><a href="historia.html">História</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="corpo">
+		<h2>Cadastro de Alunos</h2>
+
+		<form name="form1" class="container" method="post" action="#" onSubmit="enviar()">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="form-group">
+					<label for="Nome">Nome *</label>
+					<input class="form-control" type="text" name="nome" placeholder="Nome" required>
+				</div>
+
+				<div class="form-group">
+					<label for="cpf">CPF *</label>
+					<input class="form-control" type="number" name="cpf" placeholder="CPF" required>
+				</div>
+
+				<div class="form-group">
+					<label for="Endereco">Endereço</label>
+					<input class="form-control" type="text" name="endereco" placeholder="Endereço">
+				</div>
+
+				<div class="form-group">
+					<label for="Telefone">Telefone *</label>
+					<input class="form-control" type="number" name="telefone" placeholder="Telefone" required>
+				</div>
+
+				<label>Plano *</label>
+				<div class="radio">
+					<label>
+				    <input type="radio" name="planos" value="59" required>
+				    59,00
+				  </label>
+				</div>
+
+				<div class="radio">
+				  <label>
+				    <input type="radio" name="planos" value="99">
+				    99,00
+				  </label>
+				</div>
+
+				<div class="radio">
+				  <label>
+				    <input type="radio" name="planos" value="139">
+				    139,00
+				  </label>
+				</div>
+
+				<div class="radio">
+				  <label>
+				    <input type="radio" name="planos" value="199">
+				    199,00
+				  </label>
+				  <p>* Campo Obrigatório</p>
+				</div>
+
+				<div id="botao">
+					<input class="btn btn-default" type="submit">
+				</div>
+
+			</div>
+			<div class="col-md-2"></div>
+		</form>
+	</section>
+	
+</body>
+</html>

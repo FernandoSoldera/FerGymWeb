@@ -1,0 +1,71 @@
+html, body{
+	height: 100%;
+}
+nav{
+	height: 150px;
+	width: 100%;
+	background-color: #323232;
+}
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+#menu ul{
+	text-align: right;
+	margin-left: 20px;
+}
+#menu li{
+	padding-right: 35px;
+	display: inline-block;
+}
+#menu li a{
+	color: white;
+	font-size: 20px;
+}
+#menu img, ul{
+	display: inline;
+}
+#menu img{
+	margin-left: 40px;
+}
+#corpo{
+	padding-top: 150px;
+	background: black;
+	height: 950px;
+	color: yellow;
+}
+#corpo .col-md-2{
+	background-color: #323232;
+	margin-left: 20px;
+	height: 300px;
+}
+#corpo h2{
+	text-align: center;
+	margin-bottom: 155px;
+}
+#corpo h3, h4, p{
+	text-align: center;
+}
+#corpo p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#corpo .col-md-2 .botao{
+	position: absolute;
+	bottom: 20px;
+	right: 29%;
+}
+#lista1, #lista2, #lista3, #lista4{
+	text-align: center;
+	visibility: hidden;
+}
+ul{
+	list-style: none;
+}
+li{
+	margin-top: 5px;
+}
+#primeiroItem{
+	margin-top: 65px;
+}

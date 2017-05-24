@@ -1,0 +1,51 @@
+html, body{
+	height: 100%;
+}
+nav{
+	height: 150px;
+	width: 100%;
+	background-color: #323232;
+}
+header{
+	z-index: 1;
+	position: fixed;
+	width: 100%;
+}
+#menu ul{
+	text-align: right;
+	margin-left: 20px;
+}
+#menu li{
+	padding-right: 35px;
+	display: inline-block;
+}
+#menu li a{
+	color: white;
+	font-size: 20px;
+}
+#menu img, ul{
+	display: inline;
+}
+#menu img{
+	margin-left: 40px;
+}
+#corpo{
+	padding-top: 150px;
+	background: black;
+	height: 950px;
+	color: yellow;
+}
+#corpo h2{
+	margin-bottom: 100px;
+	text-align: center;
+}
+#botao{
+	margin-top: 50px; 	
+	text-align: center;
+}
+#corpo .radio{
+	margin-left: 20px;
+}
+#corpo p{
+	margin-top: 40px;
+}

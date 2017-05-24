@@ -1,0 +1,63 @@
+nav{
+	height: 150px;
+	width: 100%;
+	background-color: #323232;
+}
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+#menu ul{
+	text-align: right;
+	margin-left: 20px;
+}
+#menu li{
+	padding-right: 35px;
+	display: inline-block;
+}
+#menu li a{
+	color: white;
+	font-size: 20px;
+}
+#menu img, ul{
+	display: inline;
+}
+#menu img{
+	margin-left: 40px;
+}
+#corpo{
+	padding-top: 150px;
+	background: black;
+	height: 950px;
+	color: yellow;
+}
+#corpo #fundo{
+	margin-top: 30px;
+	margin-left: 1.3%;
+	background-image: url(../img/campinas.png);
+	height: 502px;
+	background-repeat: no-repeat;
+}
+#corpo h2{
+	text-align: center;
+	margin-bottom: 90px;
+}
+#corpo #fundo #brasil{
+	position: absolute;
+	left: 480px;
+	top: 188px;
+}
+#corpo #fundo #cambui{
+	position: absolute;
+	left: 660px;
+	top: 358px;
+}
+#corpo #fundo #mackenzie{
+	position: absolute;
+	left: 920px;
+	top: 292px;
+}
+img:hover{
+	width: 1%;
+}
